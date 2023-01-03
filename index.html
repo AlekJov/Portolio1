@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+        
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Responsive portfolio website Aleksandar Jovanovski</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    Aleksandar
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class="ri-home-5-line"></i> Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="ri-trophy-line"></i> Skills
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#qualification" class="nav__link">
+                                <i class="ri-book-open-line"></i>Qualification
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#services" class="nav__link">
+                                <i class="ri-briefcase-line"></i> Services
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#projects" class="nav__link">
+                                <i class="ri-image-line"></i> Projects
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class="ri-chat-3-line"></i> Contact
+                            </a>
+                        </li>
+                    </ul>
+                    <!--Close button-->
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+
+                    <div class="nav__buttons">
+                        <!--Theme change button-->
+                        <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                        <!--Toggle button-->
+                        <div class="nav__toggle" id="nav-toggle">
+                            <i class="ri-menu-4-line"></i>
+                        </div>
+                    </div>
+            </nav>
+            
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid section__border">
+                    <div class="home__data grid">
+                        <h1 class="home__title">
+                            Hi, I'm Aleksandar <br>
+                            Frontend and WordPress Developer <br>
+                            Based in Macedonia <br>
+                        </h1>
+                        <div class="home__blob grid">
+                            <div class="home__perfil">
+                                <img src="assets/img/portfolio-removebg-preview (1).png" alt="home">
+                            </div>
+                            <img src="assets/img/shape-wawes.svg" class="home__shape-wawes" alt="">
+                           <img src="assets/img/shape-circle.svg" class="home__shape-circle" alt="">
+                        </div>
+                        <ul class="home__social">
+                            <a href="https://www.linkedin.com/in/aleksandar-jovanovski-b4b071214/" target="_blank" class="home__social-link">
+                                <i class="ri-linkedin-box-line"></i>
+                            </a>
+
+                            <a href="https://github.com/AlekJov" target="_blank" class="home__social-link">
+                                <i class="ri-github-fill"></i>
+                            </a>
+
+                            <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                        </ul>
+                    </div>
+                    <!--------------- HOME INFO 1--------------------->
+                    <div class="home__info">
+                        <div class="">
+                            <h3 class="home__info-title">
+                                BIOGRAPHY
+                            </h3>
+                            <p class="home__info-description">
+                                Hi, I'm Aleksandar, Frontned Developer.
+                                Passionate about designing and developing beautifull web interfaces
+                            </p>
+                        </div>
+
+                        <div class="">
+                            <h3 class="home__info-title">
+                               CONTACT
+                            </h3>
+                            <p class="home__info-description">
+                                Veles, Macedonia <br>
+                                ajovanovski1211@gmail.com <br>
+                                +389 78 366403
+                            </p>
+                        </div>
+
+                        <div class="">
+                            <h3 class="home__info-title">
+                                SERVICES
+                            </h3>
+                            <p class="home__info-description">
+                                UI/UX Design <br>
+                                Frontend Development <br>
+                                Worpdress Development <br>
+                                SEO <br>
+                                Web Administration <br>
+                            </p>
+                        </div>
+                    </div>
+
+                    <!--------------- HOME INFO 2--------------------->
+                    <div class="home__info">
+                        <div class="">
+                            <h3 class="home__info-title">
+                                YEARS OF EXPERIENCE
+                            </h3>
+                            <p class="home__info-number">
+                                03+
+                            </p>
+
+                        </div>
+
+                        <div class="">
+                            <h3 class="home__info-title">
+                               COMPLETED PROJECTS
+                            </h3>
+                            <p class="home__info-number">
+                                25+
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SKILLS ====================-->
+            <section class="skills section" id="skills">
+
+                <h2 class="section__title">Skills</h2>
+                <span class="section__subtitle">My favourite skills</span>
+                <div class="skills__container container grid section__border">
+                    <!--==================== SKILLS 1 ====================-->
+                    <div class="skills__content">
+                        <h3 class="skills__title">
+                            <i class="ri-braces-line"></i> Frontend Development
+                        </h3>
+
+                        <div class="skills__info">
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="assets/img/html-1.svg" alt="skills image">
+                                </div>
+
+                                <h3 class="skills__name">
+                                    HTML5
+                                </h3>
+                                <span class="skills__subtitle">Advanced</span>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="assets/img/css-3.svg" alt="skills image">
+                                </div>
+
+                                <h3 class="skills__name">
+                                    CSS3
+                                </h3>
+
+                                <span class="skills__subtitle">Advanced</span>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="assets/img/logo-javascript.svg" alt="skills image">
+                                </div>
+
+                                <h3 class="skills__name">
+                                    JavaScript
+                                </h3>
+                                <span class="skills__subtitle">Advanced</span>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="assets/img/react-2.svg" alt="skills image">
+                                </div>
+
+                                <h3 class="skills__name">
+                                    React
+                                </h3>
+                                <span class="skills__subtitle">Intermediate</span>
+                            </div>
+
+                            
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="assets/img/nextjs-icon.svg" alt="skills image">
+                                </div>
+
+                                <h3 class="skills__name">
+                                    Next Js
+                                </h3>
+                                <span class="skills__subtitle">Intermediate</span>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="assets/img/git-icon.svg" alt="skills image">
+                                </div>
+
+                                <h3 class="skills__name">
+                                    Git
+                                </h3>
+                                <span class="skills__subtitle">Intermediate</span>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="assets/img/bootstrap-5-1.svg" alt="skills image">
+                                </div>
+
+                                <h3 class="skills__name">
+                                    Bootstrap
+                                </h3>
+                                <span class="skills__subtitle">Advanced</span>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="assets/img/gsap-greensock.svg" alt="skills image">
+                                </div>
+
+                                <h3 class="skills__name">
+                                    GSAP
+                                </h3>
+                                <span class="skills__subtitle">Advanced</span>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="assets/img/material-ui-1.svg" alt="skills image">
+                                </div>
+
+                                <h3 class="skills__name">
+                                    Material Ui
+                                </h3>
+                                <span class="skills__subtitle">Intermediate</span>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="assets/img/node-js-icon.svg" alt="skills image">
+                                </div>
+
+                                <h3 class="skills__name">
+                                    Node Js
+                                </h3>
+                                <span class="skills__subtitle">intermediate</span>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="assets/img/sass-1.svg" alt="skills image">
+                                </div>
+    
+                                <h3 class="skills__name">
+                                    Sass
+                                </h3>
+                                <span class="skills__subtitle">Advanced</span>
+                            </div>
+    
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="assets/img/tailwind-css-icon.svg" alt="skills image">
+                                </div>
+    
+                                <h3 class="skills__name">
+                                    Tailwind Css
+                                </h3>
+                                <span class="skills__subtitle">Advanced</span>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="assets/img/threejs-1.svg" alt="skills image">
+                                </div>
+    
+                                <h3 class="skills__name">
+                                    ThreeJs
+                                </h3>
+                                <span class="skills__subtitle">Advanced</span>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+
+                    <!--==================== SKILLS 2 ====================-->
+
+                    <div class="skills__content">
+                        <h3 class="skills__title">
+                           <i class="ri-pantone-line"></i> Design, Worpdress, SEO
+                        </h3>
+
+                        <div class="skills__info">
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="assets/img/figma-1.svg" alt="skills image">
+                                </div>
+
+                                <h3 class="skills__name">
+                                    Figma
+                                </h3>
+                                <span class="skills__subtitle">intermediate</span>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="assets/img/adobe-xd-1.svg" alt="skills image">
+                                </div>
+
+                                <h3 class="skills__name">
+                                    Adobe XD
+                                </h3>
+                                <span class="skills__subtitle">Intermediate</span>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="assets/img/canva-1.svg" alt="skills image">
+                                </div>
+
+                                <h3 class="skills__name">
+                                    Canva
+                                </h3>
+                                <span class="skills__subtitle">Basic</span>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="assets/img/wordpress-icon.svg" alt="skills image">
+                                </div>
+
+                                <h3 class="skills__name">
+                                    Wordpress
+                                </h3>
+                                <span class="skills__subtitle">Advanced</span>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="assets/img/elementor-icon.svg" alt="skills image">
+                                </div>
+
+                                <h3 class="skills__name">
+                                    Elementor
+                                </h3>
+                                <span class="skills__subtitle">Advanced</span>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="assets/img/woocommerce.svg" alt="skills image">
+                                </div>
+
+                                <h3 class="skills__name">
+                                    WooCommerce
+                                </h3>
+                                <span class="skills__subtitle">Advanced</span>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="https://www.pngkey.com/png/detail/269-2692329_semrush-sem-rush-logo-svg.png" alt="Semrush - Sem Rush Logo Svg@pngkey.com">
+                                </div>
+
+                                <h3 class="skills__name">
+                                    Semrush
+                                </h3>
+                                <span class="skills__subtitle">Intermediate</span>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="assets/img/google-analytics-3.svg" alt="skills image">
+                                </div>
+
+                                <h3 class="skills__name">
+                                    Google Analytics
+                                </h3>
+                                <span class="skills__subtitle">intermediate</span>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="assets/img/yoast.svg" alt="skills image">
+                                </div>
+
+                                <h3 class="skills__name">
+                                    Yoast SEO
+                                </h3>
+                                <span class="skills__subtitle">Basic</span>
+                            </div>
+
+
+
+                           
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+
+            <!--==================== QUALIFICATION ====================-->
+            <section class="qualification section" id="qualification">
+                <h2 class="section__title">Qualification</h2>
+                <span class="section__subtitle">Experience & education</span>
+                <div class="qualification__container container grid section__border">
+                   
+
+                     <!--==================== QUALIFICATION  1====================-->
+                     <div class="qualification__content">
+                        <h3 class="qualification__title">
+                            <i class="ri-pencil-ruler-2-line"></i> Education
+                        </h3>
+                 
+                        <div class="qualification__info">
+                            <div>
+                                    <h3 class="qualification__name">
+                                        Bachelor in Mechanical Engineering 
+                                    </h3>
+                                    <span class="qualification__country">
+                                        Ss.Cyril and Methodius University of Skopje
+                                    </span>
+                                    <span class="qualification__year">
+                                        2011-2016
+                                    </span>
+
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__name">
+                                    Complete React Developer in 2021
+                                </h3>
+                                <span class="qualification__country">
+                                    Zero To Mastery Academy Toronto/Online
+                                </span>
+                                <span class="qualification__year">
+                                    2020/2021
+                                </span>
+
+                            </div>
+
+
+                            <div>
+                                <h3 class="qualification__name">
+                                    13 different courses for Wordpress and Frontend Development,<br/> Seo and UI/UX Design
+                                </h3>
+                                <span class="qualification__country">
+                                    Udemy - online courses
+                                </span>
+                                <span class="qualification__year">
+                                    2018/2020
+                                </span>
+
+                             </div>
+
+                        </div>
+                    </div>
+
+                     <!--==================== QUALIFICATION  1====================-->
+                     <div class="qualification__content">
+                        <h3 class="qualification__title">
+                            <i class="ri-building-line"></i> Work
+                        </h3>
+                 
+                        <div class="qualification__info">
+                            <div>
+                                <h3 class="qualification__name">
+                                    Freelancer: Wordpress, Forntend, SEO, <br/> UI/UX ,Web Administration
+                                 </h3>
+                                 <span class="qualification__country">
+                                   Remote
+                                 </span>
+     
+                                 <span class="qualification__year">
+                                     2020/Present
+                                 </span>
+                            </div>
+                            
+                        
+
+                        
+                            <div>
+                                <h3 class="qualification__name">
+                                    Quality Planner
+                                 </h3>
+                                 <span class="qualification__country">
+                                    Marquardt Macedonia · Full-time
+                                 </span>
+     
+                                 <span class="qualification__year">
+                                     2022 - Present
+                                 </span>
+                            </div>
+                            
+                       
+
+                       
+                            <div>
+                                <h3 class="qualification__name">
+                                    Mechanical Engineer
+                                 </h3>
+                                 <span class="qualification__country">
+                                    Slabinck NV Skopje Macedonia · Full-time
+                                 </span>
+     
+                                 <span class="qualification__year">
+                                    2019 - 2022
+                                 </span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__name">
+                                    Mechanical Engineer
+                                 </h3>
+                                 <span class="qualification__country">
+                                    Tehnnolab Skopje Macedonia · Full-time
+                                 </span>
+     
+                                 <span class="qualification__year">
+                                    2017 - 2019
+                                 </span>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    
+                </div>
+                <img src="assets/img/shape-circle.svg" class="qualification__img" alt="">
+            </section>
+
+            <!--==================== SERVICES ====================-->
+            <section class="services section" id="services">
+                <h1 class="section__title">Services</h1>
+                <span class="section__subtitle">What I do</span>
+                <div class="services__container container grid section__border">
+                    <div class="services__card">
+                        <i class="ri-layout-4-line"></i>
+
+                        <h2 class="services__title">
+                            UI/UX <br>
+                            Designer
+                        </h2>
+
+                        <p class="services__description">
+                            From idea to final realization.I will provide you a great UI/UX design for your product or company in Figma or Adobe Xd
+                        </p>
+                        <div class="services__border"></div>
+                    </div>
+
+                    <div class="services__card">
+                        <i class="ri-code-line"></i>
+
+                        <h2 class="services__title">
+                            Website <br>
+                            Development
+                        </h2>
+
+                        <p class="services__description">
+                            I will make your site to be live with great responsivnes on all devices. You can choose the tehnologies on which I will make it.
+                        </p>
+                        <div class="services__border"></div>
+                    </div>
+
+                    <div class="services__card">
+                        <i class="ri-quill-pen-line"></i>
+
+                        <h2 class="services__title">
+                            Web Administration <br>
+                            Optimization, SEO
+                        </h2>
+
+                        <p class="services__description">
+                             I can teach you how to maintain your site, or make that for you. Also I will speed up your site and make it SEO optimized
+                        </p>
+                        <div class="services__border"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PROJECTS ====================-->
+            <section class="projects section" id="projects">
+                <h2 class="section__title">Projects</h2>
+                <span class="section__subtitle">Most recent work</span>
+
+                <div class="container section__border">
+                    <div class="projects__container swiper">
+                        <div class="swiper-wrapper">
+                            <!--==================== PROJECT1  ====================-->
+
+                            <div class="projects__content swiper-slide">
+                                <img src="assets/img/project1.jpg" alt="" class="projects__img">
+
+                                <div>
+                                    <span class="projects__subtitle"> Crypto currency app </span>
+                                        <h1 class="projects__title">Application made with React, react-router-dom, react hooks, axios,,coingrecko api,react-icons and dompurify</h1>
+                                        <a href="https://courageous-sherbet-02e3f1.netlify.app/" class="projects__button" target="_blank">View project <i class="ri-arrow-right-line"></i></a>        
+                                </div>
+                            </div>
+
+                             <!--==================== PROJECT1  ====================-->
+
+                             <div class="projects__content swiper-slide">
+                                <img src="assets/img/project2.jpg" alt="" class="projects__img">
+
+                                <div>
+                                    <span class="projects__subtitle">  E-Shop Aplication   </span>
+                                        <h1 class="projects__title">E-Shop application with Recat, React-router-dom, Context api and  React Hooks</h1>
+                                        <a href="https://prismatic-gelato-c2bf9a.netlify.app/" class="projects__button">View project <i class="ri-arrow-right-line"></i></a>        
+                                </div>
+                            </div>
+
+                             <!--==================== PROJECT1  ====================-->
+
+                             <div class="projects__content swiper-slide">
+                                <img src="assets/img/Project11.jpg" alt="" class="projects__img">
+
+                                <div>
+                                    <span class="projects__subtitle">  AirBnb clone   </span>
+                                        <h1 class="projects__title">Next Js aplication with calendar and location picker</h1>
+                                        <a href="https://airbnb-ashen.vercel.app/" class="projects__button">View project <i class="ri-arrow-right-line"></i></a>        
+                                </div>
+                            </div>
+
+                             <!--==================== PROJECT1  ====================-->
+
+                             <div class="projects__content swiper-slide">
+                                <img src="assets/img/project9.jpg" alt="" class="projects__img">
+
+                                <div>
+                                    <span class="projects__subtitle">  Energy X </span>
+                                        <h1 class="projects__title">Wordpress custom theme development for client</h1>
+                                        <a href="http://energyx.ltd/" class="projects__button">View project <i class="ri-arrow-right-line"></i></a>        
+                                </div>
+                            </div>
+
+                             <!--==================== PROJECT1  ====================-->
+
+                             <div class="projects__content swiper-slide">
+                                <img src="assets/img/project10.png " class="projects__img">
+
+                                <div>
+                                    <span class="projects__subtitle"> Power Pump  </span>
+                                        <h1 class="projects__title">Website development for client using html css javascript </h1>
+                                        <a href="https://powerpump.shop/" class="projects__button">View demo <i class="ri-arrow-right-line"></i></a>        
+                                </div>
+                            </div>
+
+                            <div class="projects__content swiper-slide">
+                                <img src="assets/img/project3.jpg" alt="" class="projects__img">
+
+                                <div>
+                                    <span class="projects__subtitle"> Excercises App   </span>
+                                        <h1 class="projects__title">Fitness application made with react materialUI axios and rapid api (excercisedb and YouTube).</h1>
+                                        <a href="https://glittery-kitten-0b21c0.netlify.app/" class="projects__button">View project <i class="ri-arrow-right-line"></i></a>        
+                                </div>
+                            </div>
+
+                            <div class="projects__content swiper-slide">
+                                <img src="assets/img/project4.png" alt="" class="projects__img">
+
+                                <div>
+                                    <span class="projects__subtitle"> Lyriks App  </span>
+                                        <h1 class="projects__title">Spotify clone application made with react</h1>
+                                        <a href="https://sparkly-madeleine-a3a6f2.netlify.app/" class="projects__button">View project <i class="ri-arrow-right-line"></i></a>        
+                                </div>
+                            </div>
+
+                            <div class="projects__content swiper-slide">
+                                <img src="assets/img/project5.png" alt="" class="projects__img">
+
+                                <div>
+                                    <span class="projects__subtitle"> Weather App   </span>
+                                        <h1 class="projects__title">React weather application. Here you can find information for the current weather and also for a week forecast </h1>
+                                        <a href="https://heartfelt-seahorse-bc0cbf.netlify.app/" class="projects__button">View project <i class="ri-arrow-right-line"></i></a>        
+                                </div>
+                            </div>
+
+                            <div class="projects__content swiper-slide">
+                                <img src="assets/img/project6.png" alt="" class="projects__img">
+
+                                <div>
+                                    <span class="projects__subtitle"> Food Diary   </span>
+                                        <h1 class="projects__title">Website for client made using Wordpress and Elementor</h1>
+                                        <a href="https://fooddiary.store/" class="projects__button">View project <i class="ri-arrow-right-line"></i></a>        
+                                </div>
+                            </div>
+
+                            <div class="projects__content swiper-slide">
+                                <img src="assets/img/project7.jpg" alt="" class="projects__img">
+
+                                <div>
+                                    <span class="projects__subtitle"> Pegasus coffe bar    </span>
+                                        <h1 class="projects__title">Website design and development for client.Tehnologies that are used: html css javascript.</h1>
+                                        <a href="https://pegasuscoffebar.online/" class="projects__button">View project <i class="ri-arrow-right-line"></i></a>        
+                                </div>
+                            </div>
+
+                            <div class="projects__content swiper-slide">
+                                <img src="assets/img/project8.jpg" alt="" class="projects__img">
+
+                                <div>
+                                    <span class="projects__subtitle"> Talisman shop   </span>
+                                        <h1 class="projects__title">Web development for client using wordpress elementor and woocomerce</h1>
+                                        <a href="http://talismanshop.online/" class="projects__button">View project <i class="ri-arrow-right-line"></i></a>        
+                                </div>
+                            </div>
+
+                        
+                        </div>
+
+
+                        <div class="swiper-button-next">
+                            <i class="ri-arrow-right-s-line"></i>
+                        </div>
+                        <div class="swiper-button-prev">
+                            <i class="ri-arrow-left-s-line"></i>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== TESTIMONIAL ====================-->
+            <section class="testimonial section">
+                 <h1 class="section__title">
+                    Testimonial
+                 </h1>
+                 <span class="section__subtitle">my client saying</span>
+
+                 <div class="container section__border">
+                    <div class="testimonial__container swiper">
+                        <div class="swiper-wrapper">
+                                     <!--==================== TESTIMONIAL1 ====================-->
+                                     <div class="testimonial__content swiper-slide">
+                                        <p class="testimonial__description">
+                                            "Working with Aleksandar is to giva a good impression, He carry out my project at a good cost, with excellent quality and attention.Greatserviceand recommended.""
+                                        </p>
+                                        <div class="">
+                                            <h3 class="testimonial__name">Kerry Haris</h3>
+                                            <span class="testimonial__subtitle">Client</span>
+                                        </div>
+
+                                     </div>
+
+                                     <!--==================== TESTIMONIAL2 ====================-->
+                                     <div class="testimonial__content swiper-slide">
+                                        <p class="testimonial__description">
+                                            "This gye did a fantastic job creating a new website for my company. He was friendly and nothing was too much trouble. A fantastic service, I would highly recommend and  will continue to work with them."
+                                        </p>
+                                        <div class="">
+                                            <h3 class="testimonial__name">Mary Lens</h3>
+                                            <span class="testimonial__subtitle">Client</span>
+                                        </div>
+
+                                     </div>
+
+                                     <!--==================== TESTIMONIAL1 ====================-->
+                                     <div class="testimonial__content swiper-slide">
+                                        <p class="testimonial__description">
+                                            "Very grateful to Aleksandar for all the hard work he put into our website, finished product was fantastic. Aleksandar is such a pleasure to work with, would recommend him!"
+                                        </p>
+                                        <div class="">
+                                            <h3 class="testimonial__name">Anna Chel</h3>
+                                            <span class="testimonial__subtitle">Client</span>
+                                        </div>
+
+                                     </div>
+                        </div>
+                        <div class="swiper-button-next">
+                            <i class="ri-arrow-right-s-line"></i>
+                        </div>
+                        <div class="swiper-button-prev">
+                            <i class="ri-arrow-left-s-line"></i>
+                        </div>
+                    </div>
+                 </div>
+
+                 <img src="assets/img/shape-wawes.svg" alt="" class="testimonial__img">
+            </section>
+
+            <!--==================== CONTACT ====================-->
+            <section class="contact section" id="contact">
+                <h2 class="section__title">Contact Me</h2>
+                <span class="section__subtitle">Get in touch</span>
+
+                <div class="contact__container container grid section__border">
+                    <div class="contact__content">
+                        
+                            <h3 class="contact__title">
+                               <i class="ri-chat-3-line"></i> Talk to me
+                            </h3>
+                            <div class="contact__info">
+                                <div class="contact__data">
+                                    <span class="contact__data-title">Email</span>
+                                    <span class="contact__data-info">ajovanovski1211@gmail.com</span>
+                                </div>
+
+                                <div class="contact__data">
+                                    <span class="contact__data-title">Whatsapp</span>
+                                    <span class="contact__data-info">+389 78366403</span>
+                                    <a href="https://api/whatsapp/com/send?phone=51987654321&text=hello,more information!" class="contact__button" target="_blank"> Write me <i class="ri-arrow-right-line"></i></a>
+                                   
+                                </div>
+
+                            </div>
+                       
+                    </div>
+
+                    <div class="contact__content">
+                        <h3 class="contact__title">
+                            <i class="ri-send-plane-line"></i> Write me your project
+                         </h3>
+
+                         <form action="" class="contact__form" id="contact-form">
+                            <div class="contact__form-div">
+                                <label for="" class="contact__form-tag">Name</label>
+                                <input type="text" name="user_name" required class="contact__form-input" id="contact-name" placeholder="Wrete your name">
+                            </div>
+
+                            <div class="contact__form-div">
+                                <label for="" class="contact__form-tag">Mail</label>
+                                <input type="email" name="user_email"placeholder="Write your email" required class="contact__form-input" id="contact-email">
+                            </div>
+
+                            <div class="contact__form-div contact__form-area">
+                                <label for="" class="contact__form-tag">Project</label>
+                                <textarea placeholder="Write your project" id="contact-project" name="user_project"  class="contact__form-input"></textarea>
+                            </div>
+
+                            <p class="contact__message" id="contact-message"></p>
+
+                            <button type="submit" class="contact__button">
+                                Submit <i class="ri-arrow-right-up-line"></i>
+                            </button>
+                         </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer__container container">
+                <h1 class="footer__title">Aleksnadar Jovanovski</h1>
+                <p>Frontend and WordPress Developer</p>
+                <ul class="footer__list">
+                    <li>
+                        <a href="#home" class="footer__link">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#skills" class="footer__link">Skills</a>
+                    </li>
+
+                    <li>
+                        <a href="#projects" class="footer__link">Projects</a>
+                    </li>
+                </ul>
+
+                <ul class="footer__social">
+                    <a href="https://www.linkedin.com/in/aleksandar-jovanovski-b4b071214/" target="_blank" class="footer__social-link"><i class="ri-linkedin-box-line"></i></a>
+                    <a href="https://github.com/AlekJov" target="_blank" class="footer__social-link"><i class="ri-github-line"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank" class="footer__social-link"><i class="ri-instagram-line"></i></a>
+                </ul>
+
+               
+            </div>
+        </footer>
+
+
+        <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line"></i>
+        </a>
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        
+        <!--=============== EMAIL JS ===============-->
+        <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+        </script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
